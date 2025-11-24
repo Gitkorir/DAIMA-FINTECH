@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { CheckCircle, AlertCircle, Loader } from 'lucide-react';
-import { LoanApplication } from '../types';
+import type { LoanApplication } from '../types/index';
 
 export default function Apply() {
   const [formData, setFormData] = useState<Partial<LoanApplication>>({
