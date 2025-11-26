@@ -29,6 +29,7 @@ export default function About() {
       <div className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
+            
             <h1 className="text-4xl md:text-5xl font-bold mb-6">About Daima Limited</h1>
             <p className="text-xl text-emerald-50 max-w-3xl mx-auto">
               Revolutionizing digital microfinance in Kenya through innovative

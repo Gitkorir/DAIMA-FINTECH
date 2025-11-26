@@ -1,0 +1,12 @@
+// This is a reference file that describes the correct PostCSS setup for Tailwind v4.
+// Tailwind v4 requires the dedicated `@tailwindcss/postcss` PostCSS plugin instead
+// of using `tailwindcss()` directly. Use `postcss.config.cjs` to define the plugin:
+//
+// module.exports = {
+//   plugins: [
+//     require('@tailwindcss/postcss')(),
+//     require('autoprefixer')(),
+//   ],
+// };
+//
+// The above plugin usage is already in `postcss.config.cjs` in this repo.

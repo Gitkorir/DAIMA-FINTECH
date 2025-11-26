@@ -1,0 +1,30 @@
+{
+  // If users open the parent folder instead of the nested project, point
+  // the Tailwind CSS extension to the nested config to ensure it can
+  // detect the project and show IntelliSense. Adjust this path to match
+  // your workspace if the project layout changes.
+  "tailwindCSS.experimental.configFile": "./DAIMA/tailwind.config.cjs",
+  "tailwindCSS.trace.server": "off",
+  "files.exclude": {
+    "**/.turbo": true,
+    "**/node_modules": true,
+    "**/dist": true
+  },
+  "editor.formatOnSave": false
+
+  // CSS/SCSS/Less built-in linting can flag Tailwind's at-rules as unknown.
+  // These settings silence that specific diagnostic while keeping other linting.
+  ,"css.lint.unknownAtRules": "ignore",
+  "less.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+
+  // Let the Tailwind extension handle PostCSS/Tailwind syntax.
+  "tailwindCSS.includeLanguages": {
+    "postcss": "css",
+    "javascript": "javascript",
+    "typescript": "typescript",
+    "javascriptreact": "html",
+    "typescriptreact": "html",
+    "plaintext": "html"
+  }
+}
